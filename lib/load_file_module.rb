@@ -21,14 +21,14 @@ module LoadFile
     @records = []
     @contents.each do |row|
       record = {
-          :regdate => row[:regdate],
-          :first_name => row[:first_name].to_s.downcase,
-          :last_name => row[:last_name].to_s.downcase,
+          :regdate => row[:regdate].to_s,
+          :first_name => row[:first_name].to_s.capitalize,
+          :last_name => row[:last_name].to_s.capitalize,
           :email_address => row[:email_address].to_s.downcase,
           :phone_number => PhoneNumber.new(row[:homephone]).check_valid_phone_number,
           :street => row[:street].to_s.downcase,
-          :city => row[:city].to_s.downcase,
-          :state => row[:state].to_s.downcase,
+          :city => row[:city].to_s.capitalize,
+          :state => row[:state].to_s.upcase,
           :zipcode => Zipcodes.new(row[:zipcode]).to_s
       }
       @records << record

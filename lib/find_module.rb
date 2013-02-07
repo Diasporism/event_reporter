@@ -19,7 +19,7 @@ module Find
 
   def find_results(attribute, criteria)
     @records.each do |row|
-      if  row[attribute] == criteria
+      if  row[attribute].to_s.downcase == criteria.to_s.downcase
         @queue << row
       end
     end

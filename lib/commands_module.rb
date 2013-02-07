@@ -26,11 +26,13 @@ module Commands
       elsif parts[0] == 'queue'
         @command = parts[0..-1].join(' ')
         command_input
-      elsif parts[0] == 'find'
+      elsif parts[0] == 'find' && parts[1..-1] != nil
         @command = parts[0]
         @attribute = parts[1]
         @criteria = parts[2..-1].join(' ')
         command_input
+      #elsif parts[0] == 'find' && parts[1..-1] == nil
+      #  puts 'Please tell me what to find.'
       elsif parts[0] == 'help' && parts[1] != nil
         @command = parts[0..-1].join(' ')
         command_input
