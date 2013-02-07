@@ -18,7 +18,7 @@ module ERQueue
     end
 
     @queue.each do |record|
-      formatted_record = [record[:last_name].to_s.capitalize, record[:first_name].to_s.capitalize, record[:email_address], record[:zipcode], record[:city].to_s.titleize, record[:state].to_s.upcase, record[:street].to_s.titleize, record[:phone_number]]
+      formatted_record = [record[:last_name].to_s.capitalize, record[:first_name].to_s.capitalize, record[:email_address], record[:zipcode], record[:city], record[:state].to_s.upcase, record[:street], record[:phone_number]]
       puts formatted_record.collect{|h| sprintf("%-#{@longest_key}s", h)}.join
     end
   end
@@ -33,7 +33,7 @@ module ERQueue
 
     sorted_queue = @queue.sort_by{|person| person[attribute.to_sym]}
     sorted_queue.each do |record|
-      formatted_record = [record[:last_name].to_s.capitalize, record[:first_name].to_s.capitalize, record[:email_address], record[:zipcode], record[:city].to_s.titleize, record[:state].to_s.upcase, record[:street].to_s.titleize, record[:phone_number]]
+      formatted_record = [record[:last_name].to_s.capitalize, record[:first_name].to_s.capitalize, record[:email_address], record[:zipcode], record[:city], record[:state].to_s.upcase, record[:street], record[:phone_number]]
       puts formatted_record.collect{|h| sprintf("%-#{@longest_key}s", h)}.join
     end
   end

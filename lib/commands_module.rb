@@ -1,6 +1,6 @@
 module Commands
   def run
-    puts 'EventManager initialized'
+    puts 'Event Reporter Initialized!'
     @commands = ['load <filename>', 'help', 'help <command>', 'queue count', 'queue clear', 'queue print',
                  'queue print by <attribute>', 'queue save to <filename.csv>', 'find <attribute> <criteria']
     @attributes = %w[regdate first_name last_name email_address phone_number street city state zipcode]

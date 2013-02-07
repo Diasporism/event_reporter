@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" name="Default" comment="" />
+    <list default="true" id="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/output/city_sample.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/output/empty.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/output/results" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/output/state_sample.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/commands_module.rb" afterPath="$PROJECT_DIR$/lib/commands_module.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/er_queue_module.rb" afterPath="$PROJECT_DIR$/lib/er_queue_module.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="event_reporter.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/csv_opener.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360015830760" ignored="false" />
@@ -14,19 +24,19 @@
     <file path="$PROJECT_DIR$/../Event_Manager/lib/output/thanks_7.html" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360026390201" ignored="false" />
     <file path="$PROJECT_DIR$/../Event_Manager/lib/phone_number.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360083529369" ignored="false" />
     <file path="/phone_number.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360083445176" ignored="false" />
-    <file path="/Dummy.txt" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360083638038" ignored="false" />
+    <file path="/Dummy.txt" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360202130682" ignored="false" />
     <file path="/form_letter.erb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360097486208" ignored="false" />
     <file path="/help_methods.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360113814245" ignored="false" />
     <file path="/help_tips.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360113795950" ignored="false" />
     <file path="/queue_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360192574470" ignored="false" />
     <file path="/temp.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360194708076" ignored="false" />
     <file path="/save_file_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360195412789" ignored="false" />
-    <file path="/commands_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360197670185" ignored="false" />
+    <file path="/commands_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360213974094" ignored="false" />
     <file path="/load_file.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360184898035" ignored="false" />
     <file path="/legislators.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360185293299" ignored="false" />
     <file path="/load_file_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360197921751" ignored="false" />
     <file path="/fragment.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360193235559" ignored="false" />
-    <file path="/er_queue_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360198549101" ignored="false" />
+    <file path="/er_queue_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360213478737" ignored="false" />
     <file path="/find_module.rb" changelist="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" time="1360194630226" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,22 +53,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="event_reporter.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/event_reporter.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.062111802">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -76,9 +84,9 @@
         <option value="$PROJECT_DIR$/lib/output/city_sample.csv" />
         <option value="$PROJECT_DIR$/lib/output/state_sample.csv" />
         <option value="$PROJECT_DIR$/lib/load_file_module.rb" />
-        <option value="$PROJECT_DIR$/lib/commands_module.rb" />
-        <option value="$PROJECT_DIR$/lib/er_queue_module.rb" />
         <option value="$PROJECT_DIR$/lib/event_reporter.rb" />
+        <option value="$PROJECT_DIR$/lib/er_queue_module.rb" />
+        <option value="$PROJECT_DIR$/lib/commands_module.rb" />
       </list>
     </option>
   </component>
@@ -87,7 +95,7 @@
     <option name="width" value="1440" />
     <option name="height" value="821" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -154,8 +162,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="ruby.debug.configurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Event_Manager" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -270,6 +278,24 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5f25fffa-5711-4f4b-848c-2ab7afdb5ac5" name="Default" comment="" />
@@ -286,11 +312,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16068867" sideWeight="0.70385677" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16068867" sideWeight="0.6932953" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39944905" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29614326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3067047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -362,31 +388,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/output/city_sample.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/output/state_sample.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/output/empty.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="73" selection-start="79" selection-end="79" vertical-scroll-proportion="-0.5555556" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/output/results">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/find_module.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="59" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3416149">
@@ -415,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/save_file_module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/zipcodes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -429,23 +423,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/er_queue_module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="196" selection-start="1196" selection-end="1196" vertical-scroll-proportion="1.1170213">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/load_file_module.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="54" selection-start="1105" selection-end="1105" vertical-scroll-proportion="1.0559006">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/commands_module.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="51" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.25465837">
           <folding />
         </state>
       </provider>
@@ -464,9 +444,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/er_queue_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="83" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/output/state_sample.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/output/city_sample.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/event_reporter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="13" selection-start="42" selection-end="42" vertical-scroll-proportion="0.062111802">
+        <state line="13" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.4037267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/event_attendees.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="53" selection-start="352" selection-end="352" vertical-scroll-proportion="0.095744684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/output/empty.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/commands_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="63" selection-end="63" vertical-scroll-proportion="0.06550218">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/save_file_module.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="339" selection-end="339" vertical-scroll-proportion="0.4257642">
           <folding />
         </state>
       </provider>
