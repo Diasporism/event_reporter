@@ -9,6 +9,6 @@ module SaveFile
   def save_file(file)
     filename = "#{file}"
     File.open(filename, 'w') { |file| file.puts @csv_results }
-    puts 'File saved successfully'
+    puts 'File saved successfully.'
   end
 end

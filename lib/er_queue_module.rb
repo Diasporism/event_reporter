@@ -1,12 +1,12 @@
 module ERQueue
   def queue_count
-    puts "#{@queue.size} records in queue"
+    puts "#{@queue.size} records in queue."
   end
 
   def queue_clear
     @queue.clear
     @csv_results = [@csv_results[0]]
-    puts 'Queue cleared'
+    puts 'Queue cleared.'
   end
 
   def check_for_empty_queue
@@ -14,7 +14,7 @@ module ERQueue
     if @queue.size > 0
       print_header
     else
-      puts 'Your queue is empty. No results to print'
+      puts 'Your queue is empty. No results to print.'
     end
   end
 

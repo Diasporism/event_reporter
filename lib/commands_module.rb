@@ -67,7 +67,7 @@ module Commands
       when 'help queue save to' then help_tips(@command)
       when 'help find' then help_tips(@command)
       else
-        puts "Sorry, I don't how to #{@command}"
+        puts "Sorry, I don't how to #{@command}."
     end
   end
 end

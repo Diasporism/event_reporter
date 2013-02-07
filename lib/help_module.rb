@@ -11,7 +11,7 @@ module Help
       when 'help queue print by' then puts help['help']['queue print by']
       when 'help queue save to' then puts help['help']['queue save to']
       when 'help find' then puts help['help']['find']
-      else puts 'I do not know that command'
+      else puts 'I do not know that command.'
     end
   end
 end

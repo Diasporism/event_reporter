@@ -13,7 +13,7 @@ module Find
       when 'state' then find_results(:state, criteria)
       when 'zipcode' then find_results(:zipcode, criteria)
       else
-        puts 'I do not know that attribute'
+        puts 'I do not know that attribute.'
     end
   end
 
@@ -27,7 +27,7 @@ module Find
     if @queue.size == 0
       puts 'No results found'
     else
-      puts "#{@queue.size} results found"
+      puts "#{@queue.size} results found."
       convert_queue_to_csv
     end
   end

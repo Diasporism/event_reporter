@@ -14,7 +14,7 @@ module LoadFile
   def load_file(file='event_attendees.csv')
     @contents = CSV.open file, headers: true, header_converters: :symbol
     parse_csv_file
-    puts "#{file} loaded"
+    puts "#{file} loaded."
   end
 
   def parse_csv_file
