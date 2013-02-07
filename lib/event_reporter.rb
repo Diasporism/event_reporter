@@ -1,6 +1,7 @@
 require 'csv'
 require 'date'
 require 'erb'
+require 'yaml'
 
 require_relative 'commands_module'
 include Commands

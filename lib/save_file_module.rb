@@ -7,9 +7,7 @@ module SaveFile
   end
 
   def save_file(file)
-    Dir.mkdir('output') unless Dir.exists? 'output'
-
-    filename = "output/#{file}"
+    filename = "#{file}"
     File.open(filename, 'w') { |file| file.puts @csv_results }
     puts 'File saved successfully'
   end

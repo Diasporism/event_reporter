@@ -1,0 +1,26 @@
+help:
+  load: Loads a designated file. If no file is designated, a default file is loaded (event_attendees.csv).
+  help: Prints a list of commands you can enter.
+  find: |
+    Attempts to search for and return a list of records based on an attribute and criteria.
+    Example: 'find first_name Sarah' will return all records with a first name of Sarah.
+  "queue count": Shows the total number of records your last query returned.
+  "queue clear": Resets the queue count back to 0.
+  "queue print": Prints the list of records your last query returned.
+  "queue print by": |
+    Prints out a list of records that your last query returned.
+    Example: 'queue print by last_name' will print the queue alphabetically by last name.
+  "queue save to": |
+    Saves the list of records returned from your last query to a file. Specify the file name after the command.
+    Example: 'queue save to example' will save the queue to a file named example.csv.
+  "command list": |
+    List of Commands:
+    1. load <filename>
+    2. help
+    3. help <command>
+    4. queue count
+    5. queue clear
+    6. queue print
+    7. queue print by <attribute>
+    8. queue save to <file name>
+    9. find <attribute> <criteria>

@@ -9,33 +9,43 @@ module ERQueue
     puts 'Queue cleared'
   end
 
-  def queue_print
+  def check_for_empty_queue
     find_longest_column
     if @queue.size > 0
       print_header
     else
       puts 'Your queue is empty. No results to print'
     end
+  end
+
+  def queue_print
+    check_for_empty_queue
 
     @queue.each do |record|
-      formatted_record = [record[:last_name].to_s.capitalize, record[:first_name].to_s.capitalize, record[:email_address], record[:zipcode], record[:city], record[:state].to_s.upcase, record[:street], record[:phone_number]]
-      puts formatted_record.collect{|h| sprintf("%-#{@longest_key}s", h)}.join
+      format_record(record)
     end
   end
 
   def queue_print_by_attribute(attribute)
-    find_longest_column
-    if @queue.size > 0
-      print_header
-    else
-      puts 'Your queue is empty. No results to print'
-    end
+    check_for_empty_queue
 
     sorted_queue = @queue.sort_by{|person| person[attribute.to_sym]}
     sorted_queue.each do |record|
-      formatted_record = [record[:last_name].to_s.capitalize, record[:first_name].to_s.capitalize, record[:email_address], record[:zipcode], record[:city], record[:state].to_s.upcase, record[:street], record[:phone_number]]
-      puts formatted_record.collect{|h| sprintf("%-#{@longest_key}s", h)}.join
+      format_record(record)
     end
+  end
+
+  def format_record(record)
+    @formatted_record = [record[:last_name].to_s.capitalize,
+                         record[:first_name].to_s.capitalize,
+                         record[:email_address],
+                         record[:zipcode],
+                         record[:city],
+                         record[:state].to_s.upcase,
+                         record[:street],
+                         record[:phone_number]]
+
+    puts @formatted_record.collect { |h| sprintf("%-#{@longest_key}s", h) }.join
   end
 
   def print_header
